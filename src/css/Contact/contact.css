@@ -1,13 +1,8 @@
 body {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   height: 100%;
   -webkit-overflow-scrolling: auto;
-}
-
-.pageMargin {
-  padding-left: 7.5%;
-  padding-right: 7.5%;
 }
 
 @media screen and (min-width: 1025px) {
@@ -16,9 +11,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 88.5px;
-    margin-bottom: 168px;
+    margin-bottom: 100px;
   }
-
   .titleText {
     object-fit: contain;
     font-family: Roboto;
@@ -35,8 +29,8 @@ body {
   .titleBackDrag {
     position: absolute;
     top: 24px;
-    margin-left: 16px;
-    width: 279px;
+    margin-left: 8px;
+    width: 188px;
     height: 33px;
     object-fit: contain;
     opacity: 0.4;
@@ -45,57 +39,40 @@ body {
     z-index: 0;
   }
 
-  .pulicationTextSection {
+  .contentSection {
     display: flex;
-    flex-direction: row;
-    min-height: fit-content;
-    margin-bottom: 40px;
-  }
-  .pulicationTextSection > .leftContainer {
-    display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 70%;
+    padding-bottom: 66px;
+    background-image: url("/public/images/Contact/contact-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  .pulicationTextSection > .leftContainer > .publicationAuthorText {
+
+  .map iframe {
+    width: 832px;
+    height: 332px;
+  }
+
+  .infoSection {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 65px;
+  }
+  .infoSection > span {
+    object-fit: contain;
+    opacity: 0.7;
     font-family: Roboto;
-    font-size: 21px;
+    font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
+    line-height: 1.76;
+    letter-spacing: -0.68px;
     text-align: left;
-    color: #013776;
+    color: #030303;
     margin-bottom: 8px;
-  }
-  .pulicationTextSection > .leftContainer > .publicationLinkText {
-    font-family: Roboto;
-    font-size: 26px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.31;
-    letter-spacing: -0.78px;
-    text-align: left;
-    color: #000;
-  }
-  .pulicationTextSection > .rightContainer {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-  .pulicationTextSection > .rightContainer > .addtionalInfoText {
-    object-fit: contain;
-    opacity: 0.6;
-    font-family: Roboto;
-    font-size: 19px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
-    text-align: right;
-    color: #000;
+    margin-left: 48px;
   }
 
   .footerSection {
@@ -104,7 +81,7 @@ body {
     bottom: 0pt;
     left: 0pt;
     width: 100%;
-    margin-top: 100px;
+    position: absolute;
   }
   .footerSection > .topContainer {
     height: 108px;
@@ -160,58 +137,39 @@ body {
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
   }
 
-  .pulicationTextSection {
+  .contentSection {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    min-height: fit-content;
-    margin-bottom: 40px;
+    padding-bottom: 66px;
+    margin-top: 64px;
   }
-  .pulicationTextSection > .leftContainer {
-    display: flex;
+
+  .map iframe {
+    width: 320px;
+    height: 176px;
+    justify-self: center;
+  }
+
+  .infoSection {
+    display: inline-flex;
     flex-direction: column;
-    /* width: 70%; */
+    margin-top: 29px;
   }
-  .pulicationTextSection > .leftContainer > .publicationAuthorText {
+  .infoSection > span {
+    object-fit: contain;
+    opacity: 0.7;
     font-family: Roboto;
-    font-size: 7px;
+    font-size: 10px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
+    line-height: 3;
+    letter-spacing: -0.4px;
     text-align: left;
-    color: #013776;
-    margin-bottom: 4px;
-  }
-  .pulicationTextSection > .leftContainer > .publicationLinkText {
-    font-family: Roboto;
-    font-size: 9px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.31;
-    letter-spacing: -0.78px;
-    text-align: left;
-    color: #000;
+    color: #030303;
     margin-bottom: 8px;
-  }
-  .pulicationTextSection > .rightContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .pulicationTextSection > .rightContainer > .addtionalInfoText {
-    object-fit: contain;
-    opacity: 0.6;
-    font-family: Roboto;
-    font-size: 6px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
-    text-align: right;
-    color: #000;
+    margin-left: 48px;
   }
 
   .footerSection {
@@ -220,10 +178,10 @@ body {
     bottom: 0pt;
     left: 0pt;
     width: 100%;
-    margin-top: 76px;
+    margin-top: 88px;
   }
   .footerSection > .topContainer {
-    height: 100%;
+    height: 228px;
     object-fit: contain;
     background-color: #fcfcfc;
   }
