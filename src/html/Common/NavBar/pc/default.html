@@ -1,1 +1,62 @@
 <!--  -->
+<!DOCTYPE html>
+
+<html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+    /* first button is logo button, first button has no any mouse events */
+    /* ********************************************************************* */
+    
+    /* Second button, INTRODUCTION button mouseover&mouseleave event */
+     $('#listAll' ).mouseover(
+            function () {
+                $('#listAll' ).css('color','#000');
+                //$('#listThreeTitle' ).css('color','#013776');
+                $('#listAll').hide(200);
+            }
+      );
+
+      /* Third button, RESEARCH button mouseover&mouseleave event */
+      $('#listAll').mouseleave(function () {
+        $('#listAll' ).css('color','#000');
+        $('#listAll').hide(200)
+      });
+
+      
+    })
+  </script>
+  <head>
+    <link rel="stylesheet" href="../../../../css/Common/NavBar/default.css" />
+  </head>
+  <body>
+    <div class="section">
+            <ul class="list" >
+                <div class="header">
+                    <div class="micro">
+                        <li @mouseover="listAll = true" @mouseleave="listAll =false">
+                            <a href="#">
+                                <img alt="rogo" src="../../../../../public/images/Common/NavBar/navbarRogo.png"/>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="item">
+                        <li>
+                            <a href="#" id="listAll">INTRODUCTION</a>
+  
+                            <a href="#" id="listAll">RESEARCH</a>
+   
+                            <a href="#" id="listAll">MEMBERS</a>
+     
+                            <a href="#" id="listAll">PUBLICATION</a>
+        
+                            <a href="#" id="listAll">CONTACT</a>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+
+    </div>
+      
+
+  </body>
