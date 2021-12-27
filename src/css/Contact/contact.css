@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  /* padding: 0; */
+  height: 100%;
+  -webkit-overflow-scrolling: auto;
+}
+
+@media screen and (min-width: 1025px) {
+  .titleSection {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 88.5px;
+    margin-bottom: 100px;
+  }
+  .titleText {
+    object-fit: contain;
+    font-family: Roboto;
+    font-size: 49px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: -1.47px;
+    text-align: left;
+    color: #013776;
+    z-index: 1;
+  }
+  .titleBackDrag {
+    position: absolute;
+    top: 24px;
+    margin-left: 8px;
+    width: 188px;
+    height: 33px;
+    object-fit: contain;
+    opacity: 0.4;
+    border-radius: 17px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
+    z-index: 0;
+  }
+
+  .contentSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 66px;
+    background-image: url("/public/images/Contact/contact-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .map iframe {
+    width: 832px;
+    height: 332px;
+  }
+
+  .infoSection {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 65px;
+  }
+  .infoSection > span {
+    object-fit: contain;
+    opacity: 0.7;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: -0.68px;
+    text-align: left;
+    color: #030303;
+    margin-bottom: 8px;
+    margin-left: 48px;
+  }
+
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+    bottom: 0pt;
+    left: 0pt;
+    width: 100%;
+    position: absolute;
+  }
+  .footerSection > .topContainer {
+    height: 108px;
+    object-fit: contain;
+    background-color: #fcfcfc;
+  }
+  .footerSection > .bottomContainer {
+    height: 71px;
+    object-fit: contain;
+    border: solid 1px #e2e2e2;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .titleSectionBox {
+    object-fit: contain;
+    box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titleSection {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .titleText {
+    object-fit: contain;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.51px;
+    text-align: left;
+    color: #013776;
+    z-index: 1;
+  }
+  .titleBackDrag {
+    position: absolute;
+    top: 8px;
+    border-radius: 17px;
+    margin-left: -36px;
+    width: 72px;
+    height: 13px;
+    object-fit: contain;
+    opacity: 0.4;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
+  }
+
+  .contentSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 66px;
+    margin-top: 64px;
+  }
+
+  .map iframe {
+    width: 320px;
+    height: 176px;
+    justify-self: center;
+  }
+
+  .infoSection {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 29px;
+  }
+  .infoSection > span {
+    object-fit: contain;
+    opacity: 0.7;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #030303;
+    margin-bottom: 8px;
+    margin-left: 48px;
+  }
+
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+    bottom: 0pt;
+    left: 0pt;
+    width: 100%;
+    margin-top: 88px;
+  }
+  .footerSection > .topContainer {
+    height: 228px;
+    object-fit: contain;
+    background-color: #fcfcfc;
+  }
+  .footerSection > .bottomContainer {
+    display: none;
+  }
+}

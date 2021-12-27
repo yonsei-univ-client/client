@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HTML 컴포넌트 파일 선택을 위한 JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <!-- 반응형 컴포넌트 load -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#mobile-layout").load("../Member/mobile/default.html"); // 원하는 파일 경로를 삽입하면 된다
+        $("#pc-layout").load("../Member/pc/default.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+      });
+    </script>
+
+    <!-- 반응형 적용 -->
+    <style>
+      @media screen and (min-width: 1025px) {
+        #mobile-layout {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 1024px) {
+        #pc-layout {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- PC 버전 컴포넌트 (id='pc-layout' 으로 통일), 해당 파일의 경로는 "../{페이지명}/pc/default.html" -->
+    <div id="pc-layout"></div>
+
+    <!-- Mobile 버전 컴포넌트 (id='mobile-layout' 으로 통일), 해당 파일의 경로는 "../{페이지명}/mobile/default.html" -->
+    <div id="mobile-layout"></div>
+  </body>
+</html>
