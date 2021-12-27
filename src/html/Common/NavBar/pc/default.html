@@ -5,28 +5,56 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
-    /* first button is logo button, first button has no any mouse events */
-    /* ********************************************************************* */
-    
-    /* Second button, INTRODUCTION button mouseover&mouseleave event */
-     $('#listAll' ).mouseover(
-            function () {
-                $('#listAll' ).css('color','#000');
-                //$('#listThreeTitle' ).css('color','#013776');
-                $('#listAll').hide(200);
-            }
-      );
 
-      /* Third button, RESEARCH button mouseover&mouseleave event */
-      $('#listAll').mouseleave(function () {
-        $('#listAll' ).css('color','#000');
-        $('#listAll').hide(200)
+
+      $('#item1').mouseover(function () {
+        $('#item1' ).css('color','#013776');
+        $('#table').show();
       });
-
+      $('#item2').mouseover(function () {
+        $('#item2' ).css('color','#013776');
+        $('#table').show();
+      });
+      $('#item3').mouseover(function () {
+        $('#item3' ).css('color','#013776');
+        $('#table').show();
+      });
+      $('#item4').mouseover(function () {
+        $('#item4' ).css('color','#013776');
+        $('#table').show();
+      });
+      $('#item5').mouseover(function () {
+        $('#item5' ).css('color','#013776');
+        $('#table').show();
+      });
+      $('#item1').mouseleave(function () {
+        $('#item1' ).css('color','#707070');
+        $('#table').hide(1)
+      });
+      $('#item2').mouseleave(function () {
+        $('#item2' ).css('color','#707070');
+        $('#table').hide(1)
+      });
+      $('#item3').mouseleave(function () {
+        $('#item3' ).css('color','#707070');
+        $('#table').hide(1)
+      });
+      $('#item4').mouseleave(function () {
+        $('#item4' ).css('color','#707070');
+        $('#table').hide(1)
+      });
+      $('#item5').mouseleave(function () {
+        $('#item5' ).css('color','#707070');
+        $('#table').hide(1)
+      });
+     $('#table').mouseover(function () {
+         $('#table').show();
+     })
       
     })
   </script>
   <head>
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="../../../../css/Common/NavBar/default.css" />
   </head>
   <body>
@@ -40,23 +68,45 @@
                             </a>
                         </li>
                     </div>
-                    <div class="item">
-                        <li>
-                            <a href="#" id="listAll">INTRODUCTION</a>
-  
-                            <a href="#" id="listAll">RESEARCH</a>
-   
-                            <a href="#" id="listAll">MEMBERS</a>
-     
-                            <a href="#" id="listAll">PUBLICATION</a>
-        
-                            <a href="#" id="listAll">CONTACT</a>
-                        </li>
+                    <div class="flexbox">
+                    <div class="titlelist">
+                            <div class="titleRow"><a href="#" id="item1" >INTRODUCTION</a></div>
+                        
+                            <div class="titleRow"><a href="#" id="item2">RESEARCH</a></div>
+                      
+                            <div class="titleRow"><a href="#" id="item3">MEMBERS</a></div>
+                  
+                            <div class="titleRow"><a href="#" id="item4">PUBLICATION</a></div>
+                      
+                            <div class="titleRow"><a href="#" id="item5">CONTACT</a></div>
+                       
+                    
+                        <div id="table">
+                            <div class="itemRow">
+                                <div class="itemColumn"><a href="#" class="itemAll">Introduction</a></div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="itemColumn"><a href="#" class="itemAll">Research Introduction</a></div>
+                                <div class="itemColumn"><a href="#" class="itemAll">Research Overview</a></div>
+                                <div class="itemColumn"><a href="#" class="itemAll">Research Areas</a></div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="itemColumn"><a href="#" class="itemAll">Professor</a></div>
+                                <div class="itemColumn"><a href="#" class="itemAll">Members</a></div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="itemColumn"><a href="#" class="itemAll">Professor</a></div>
+                            </div>
+                            <div class="itemRow" >
+                                <div class="itemColumn"><a href="#"class="itemAll" >Contact</a></div>
+                            </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </ul>
 
     </div>
-      
+
 
   </body>
