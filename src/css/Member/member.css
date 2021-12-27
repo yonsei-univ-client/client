@@ -327,14 +327,20 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+  #subTabContainer {
+    overflow-x: auto;
+    -ms-overflow-style: none;
+  }
+  #subTabContainer::-webkit-scrollbar {
+    display: none;
+  }
+
   .nav-tabs {
-    /* border-bottom: 1px solid #ebebeb; */
     border-color: transparent !important;
     justify-content: center;
-    margin-left: 5.9%;
-    margin-right: 5.9%;
     margin-bottom: 40px;
     margin-top: 16px;
+    min-width: 375px;
   }
 
   .nav-tabs .nav-item.show .nav-link,
@@ -342,12 +348,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 145px !important;
+    width: 160px !important;
     height: 40px !important;
     color: #3c6695 !important;
-    /* background-color: transparent !important; */
-    /* border-color: transparent transparent #3c6695 !important; */
-    /* border-bottom-width: 3px !important; */
     border-color: #000 !important;
     object-fit: contain !important;
     border-radius: 20px !important;
@@ -374,12 +377,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 145px !important;
+    width: 160px !important;
     height: 40px !important;
     color: #3c6695 !important;
-    /* background-color: transparent !important; */
-    /* border-color: transparent transparent #3c6695 !important; */
-    /* border-bottom-width: 3px !important; */
     object-fit: contain !important;
     border: solid 1px #dadada !important;
     background-color: #fff !important;

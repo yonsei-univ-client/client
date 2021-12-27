@@ -61,36 +61,38 @@
     </div>
 
     <!-- 페이지 내부 sub tab 전환 navigation bar -->
-    <ul class="nav nav-tabs inner-tab" id="sub-tab">
-      <li class="nav-item">
-        <a
-          class="nav-link active"
-          id="professor-mobile-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#professor-mobile"
-          type="button"
-          role="tab"
-          aria-controls="professor-mobile"
-          aria-selected="true"
-        >
-          Professor
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          id="members-mobile-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#members-mobile"
-          type="button"
-          role="tab"
-          aria-controls="members-mobile"
-          aria-selected="false"
-        >
-          Members
-        </a>
-      </li>
-    </ul>
+    <div id="subTabContainer">
+      <ul class="nav nav-tabs inner-tab" id="sub-tab">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="professor-mobile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#professor-mobile"
+            type="button"
+            role="tab"
+            aria-controls="professor-mobile"
+            aria-selected="true"
+          >
+            Professor
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="members-mobile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#members-mobile"
+            type="button"
+            role="tab"
+            aria-controls="members-mobile"
+            aria-selected="false"
+          >
+            Members
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <div class="tab-content">
       <!-- Professor Sub Tab Content -->
