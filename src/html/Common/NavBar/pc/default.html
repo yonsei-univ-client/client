@@ -5,83 +5,92 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
+      
+$('#item1').mouseover(function () {
+  $('#item1' ).css('color','#013776');
+  $('#table').show();
+});
+$('#item2').mouseover(function () {
+  $('#item2' ).css('color','#013776');
+  $('#table').show();
+});
+$('#item3').mouseover(function () {
+  $('#item3' ).css('color','#013776');
+  $('#table').show();
+});
+$('#item4').mouseover(function () {
+  $('#item4' ).css('color','#013776');
+  $('#table').show();
+});
+$('#item5').mouseover(function () {
+  $('#item5' ).css('color','#013776');
+  $('#table').show();
+});
+$('#item1').mouseleave(function () {
+  $('#item1' ).css('color','#707070');
+  $('#table').hide(100)
+});
+$('#item2').mouseleave(function () {
+  $('#item2' ).css('color','#707070');
+  $('#table').hide(100)
+});
+$('#item3').mouseleave(function () {
+  $('#item3' ).css('color','#707070');
+  $('#table').hide(100)
+});
+$('#item4').mouseleave(function () {
+  $('#item4' ).css('color','#707070');
+  $('#table').hide(100)
+});
+$('#item5').mouseleave(function () {
+  $('#item5' ).css('color','#707070');
+  $('#table').hide(100)
+});
+$('#table').mouseover(function () {
+   $('#table').show();
+})
 
-
-      $('#item1').mouseover(function () {
-        $('#item1' ).css('color','#013776');
-        $('#table').show();
-      });
-      $('#item2').mouseover(function () {
-        $('#item2' ).css('color','#013776');
-        $('#table').show();
-      });
-      $('#item3').mouseover(function () {
-        $('#item3' ).css('color','#013776');
-        $('#table').show();
-      });
-      $('#item4').mouseover(function () {
-        $('#item4' ).css('color','#013776');
-        $('#table').show();
-      });
-      $('#item5').mouseover(function () {
-        $('#item5' ).css('color','#013776');
-        $('#table').show();
-      });
-      $('#item1').mouseleave(function () {
-        $('#item1' ).css('color','#707070');
-        $('#table').hide(1)
-      });
-      $('#item2').mouseleave(function () {
-        $('#item2' ).css('color','#707070');
-        $('#table').hide(1)
-      });
-      $('#item3').mouseleave(function () {
-        $('#item3' ).css('color','#707070');
-        $('#table').hide(1)
-      });
-      $('#item4').mouseleave(function () {
-        $('#item4' ).css('color','#707070');
-        $('#table').hide(1)
-      });
-      $('#item5').mouseleave(function () {
-        $('#item5' ).css('color','#707070');
-        $('#table').hide(1)
-      });
-     $('#table').mouseover(function () {
-         $('#table').show();
-     })
+      
       
     })
   </script>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../../../css/Common/NavBar/default.css" />
+    <link rel="stylesheet" 
+    type="text/css"
+    href="/src/css/Common/NavBar/default.css" />
   </head>
   <body>
     <div class="section">
             <ul class="list" >
                 <div class="header">
                     <div class="micro">
-                        <li @mouseover="listAll = true" @mouseleave="listAll =false">
-                            <a href="#">
+                        <li >
+                            <a href="/src/html/Home/home.html">
                                 <img alt="rogo" src="../../../../../public/images/Common/NavBar/navbarRogo.png"/>
                             </a>
                         </li>
                     </div>
                     <div class="flexbox">
-                    <div class="titlelist">
-                            <div class="titleRow"><a href="#" id="item1" >INTRODUCTION</a></div>
-                        
-                            <div class="titleRow"><a href="#" id="item2">RESEARCH</a></div>
-                      
-                            <div class="titleRow"><a href="#" id="item3">MEMBERS</a></div>
-                  
-                            <div class="titleRow"><a href="#" id="item4">PUBLICATION</a></div>
-                      
-                            <div class="titleRow"><a href="#" id="item5">CONTACT</a></div>
-                       
-                    
-                        <div id="table">
+                          <div class="titlelist">
+                            <div class="titleRow">
+                           <a id="item1" >INTRODUCTION</a>
+                            </div>
+                            <div  class="titleRow">
+
+                            <a id="item2">RESEARCH</a>
+                          </div>
+                            <div  class="titleRow">
+                            <a id="item3">MEMBERS</a>
+                          </div>
+                          <div  class="titleRow">
+                         <a id="item4">PUBLICATION</a>
+                          </div>
+                          <div  class="titleRow">
+                           <a id="item5">CONTACT</a>
+                          </div>
+                          </div>
+                          <div id="table">
                             <div class="itemRow">
                                 <div class="itemColumn"><a href="#" class="itemAll">Introduction</a></div>
                             </div>
@@ -95,14 +104,16 @@
                                 <div class="itemColumn"><a href="#" class="itemAll">Members</a></div>
                             </div>
                             <div class="itemRow">
-                                <div class="itemColumn"><a href="#" class="itemAll">Professor</a></div>
+                                <div class="itemColumn"><a href="#" class="itemAll">Publication</a></div>
                             </div>
                             <div class="itemRow" >
                                 <div class="itemColumn"><a href="#"class="itemAll" >Contact</a></div>
                             </div>
-                        </div>
+                        
                       </div>
+                        
                     </div>
+                   
                 </div>
             </ul>
 

@@ -2,7 +2,7 @@
 .section {
     display: flex;
     position: fixed;
-    width: 1660px;
+    width: 100%;
     height: 79.5px;
     border-bottom: solid 3px #3c6695;
     z-index: 100;
@@ -21,17 +21,17 @@
 .header {
     display: flex;
     width: 100%;
-    margin-left: 144px;
-    margin-right: 179px;
+    margin-left: 7.5%;
+    margin-right: 9.3%;
     justify-content: space-between;
     flex-direction: row;
-    
 }
 .micro {
+    width: 232px;
     display: flex;
     flex-direction: column;
     margin:0;
-    justify-content: flex-start;
+    //justify-content: flex-start;
 }
 .rogo {
     width: 232px;
@@ -41,24 +41,33 @@
     
 }
 .flexbox{
+    width: 54.10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #013776;
 }
 .titlelist {
-    width: 864px;
     display: flex;
+    width: 100%;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding:0;
+    justify-content: space-around;
+    z-index: 30;
+    background-color: #3c6695;
 }
 .titleRow {
-    list-style: none;
-    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+
+    //object-fit: contain;
+    //width:19.44%;
     width: 168px;
     height: 40px;
+    
 }
 #item1, #item2, #item3, #item4, #item5 {
+    //background-color: yellow;
     font-family: Roboto;
     font-size: 20px;
     font-weight: normal;
@@ -66,37 +75,50 @@
     font-style: normal;
     text-decoration: none;
     letter-spacing: normal;
-    
     color: #707070;
 }
-
+#item1, #item2, #item3, #item4, #item5 :hover {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+    color: #013776;
+}
 #table {
     position: absolute;
-    width: 864px;
+    width: 44.10%;
     height: 152px;
-    justify-content: space-around;
-    margin-top:47px;
+    justify-content: space-evenly;
+    top:80px;
     display: flex;
     flex-direction: row;
     object-fit: contain;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     border:rgba(0, 0, 0, 0.16);
+    z-index: 10;
 }
 .itemRow {
     display: flex;
     flex-direction: column;
-    //background-color:bisque;
+    background-color:bisque;
+    //width:19.44%;
+    width: 164px;
     margin: 0;
     padding: 0;
 }
 .itemColumn {
+    align-items: center;
     display: flex;
     flex-direction: column;
     list-style: none;
     justify-content: center;
-    //background-color: aquamarine;
+    background-color: aquamarine;
     object-fit: contain;
-    width: 168px;
+    //width: 168px;
+    width: 100%;
     height: 50px;
     padding: 0;
 }
@@ -108,10 +130,8 @@
     font-style: normal;
     line-height: 1.33;
     letter-spacing: normal;
-    //text-align: left;
     color: #606060;
     text-decoration: none;
-    //margin-bottom: 18px;
     //background-color: red;
     
 }
