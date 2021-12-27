@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  /* padding: 0; */
   height: 100%;
   -webkit-overflow-scrolling: auto;
 }
@@ -169,7 +168,6 @@ body {
     text-align: left;
     color: #030303;
     margin-bottom: 8px;
-    margin-left: 48px;
   }
 
   .footerSection {
