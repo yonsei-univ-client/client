@@ -45,29 +45,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #013776;
+    //background-color: #013776;
 }
 .titlelist {
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    object-fit: contain;
     z-index: 30;
-    background-color: #3c6695;
 }
 .titleRow {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
-
-    //object-fit: contain;
-    //width:19.44%;
     width: 168px;
     height: 40px;
-    
+    //width:19.44%;
 }
 #item1, #item2, #item3, #item4, #item5 {
-    //background-color: yellow;
     font-family: Roboto;
     font-size: 20px;
     font-weight: normal;
@@ -89,7 +84,8 @@
 }
 #table {
     position: absolute;
-    width: 44.10%;
+    width: 44.40%;
+    //width: 100%;
     height: 152px;
     justify-content: space-evenly;
     top:80px;
@@ -103,11 +99,9 @@
 .itemRow {
     display: flex;
     flex-direction: column;
-    background-color:bisque;
+    //background-color:bisque;
     //width:19.44%;
-    width: 164px;
-    margin: 0;
-    padding: 0;
+    width: 168px;
 }
 .itemColumn {
     align-items: center;
@@ -115,12 +109,11 @@
     flex-direction: column;
     list-style: none;
     justify-content: center;
-    background-color: aquamarine;
+    //background-color: aquamarine;
     object-fit: contain;
     //width: 168px;
     width: 100%;
     height: 50px;
-    padding: 0;
 }
 .itemAll {
     font-family: Roboto;
@@ -131,11 +124,16 @@
     line-height: 1.33;
     letter-spacing: normal;
     color: #606060;
-    text-decoration: none;
-    //background-color: red;
     
+    text-decoration: none;
 }
 /*mobile*/
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 .mobile-section {
     display: flex;
     position: fixed;
@@ -238,7 +236,6 @@
     justify-content: center;
 }
 #introduction, #research, #members, #publication, #contact {
-
 }
 .menucol {
     margin-left: 24px;

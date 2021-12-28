@@ -5,53 +5,127 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
-      
-$('#item1').mouseover(function () {
-  $('#item1' ).css('color','#013776');
-  $('#table').show();
-});
-$('#item2').mouseover(function () {
-  $('#item2' ).css('color','#013776');
-  $('#table').show();
-});
-$('#item3').mouseover(function () {
-  $('#item3' ).css('color','#013776');
-  $('#table').show();
-});
-$('#item4').mouseover(function () {
-  $('#item4' ).css('color','#013776');
-  $('#table').show();
-});
-$('#item5').mouseover(function () {
-  $('#item5' ).css('color','#013776');
-  $('#table').show();
-});
-$('#item1').mouseleave(function () {
-  $('#item1' ).css('color','#707070');
-  $('#table').hide(100)
-});
-$('#item2').mouseleave(function () {
-  $('#item2' ).css('color','#707070');
-  $('#table').hide(100)
-});
-$('#item3').mouseleave(function () {
-  $('#item3' ).css('color','#707070');
-  $('#table').hide(100)
-});
-$('#item4').mouseleave(function () {
-  $('#item4' ).css('color','#707070');
-  $('#table').hide(100)
-});
-$('#item5').mouseleave(function () {
-  $('#item5' ).css('color','#707070');
-  $('#table').hide(100)
-});
-$('#table').mouseover(function () {
-   $('#table').show();
-})
+      /*메뉴바 상단 event*/
+      $('#item1').mouseover(function () {
+        $('#item1' ).css('color','#013776');
+      });
+      $('#item2').mouseover(function () {
+        $('#item2' ).css('color','#013776');
 
-      
-      
+      });
+      $('#item3').mouseover(function () {
+        $('#item3' ).css('color','#013776');
+
+      });
+      $('#item4').mouseover(function () {
+        $('#item4' ).css('color','#013776');
+
+      });
+      $('#item5').mouseover(function () {
+        $('#item5' ).css('color','#013776');
+
+      });
+      $('#item1').mouseleave(function () {
+        $('#item1' ).css('color','#707070');
+
+      });
+      $('#item2').mouseleave(function () {
+        $('#item2' ).css('color','#707070');
+
+      });
+      $('#item3').mouseleave(function () {
+        $('#item3' ).css('color','#707070');
+
+      });
+      $('#item4').mouseleave(function () {
+        $('#item4' ).css('color','#707070');
+
+      });
+      $('#item5').mouseleave(function () {
+        $('#item5' ).css('color','#707070');
+      });
+      /*메뉴 테이블 event*/
+      $('#table').mouseover(function () {
+        $('#table').show();
+      })
+      $('.titlelist').mouseover(function ( ){
+        $('#table').show();
+      })
+      $('#table').mouseleave(function () {
+        $('#table').hide();
+      })
+      $('.titlelist').mouseleave(function ( ){
+        $('#table').hide();
+      })
+      /*introduction event*/
+      $('#introduction').mouseover(function ( ){
+        $('#intro').css('color','#013776');
+        $('#item1').css('color','#013776');
+      })
+      $('#introduction').mouseleave(function () {
+        $('#intro').css('color','#707070');
+        $('#item1').css('color','#707070');
+      })
+      /*research event*/
+      $('#r1').mouseover(function ( ){
+        $('#ri').css('color','#013776');
+        $('#item2').css('color','#013776');
+      })
+      $('#r1').mouseleave(function () {
+        $('#ri').css('color','#707070');
+        $('#item2').css('color','#707070');
+      })
+      $('#r2').mouseover(function ( ){
+        $('#ro').css('color','#013776');
+        $('#item2').css('color','#013776');
+      })
+      $('#r2').mouseleave(function () {
+        $('#ro').css('color','#707070');
+        $('#item2').css('color','#707070');
+      })
+      $('#r3').mouseover(function ( ){
+        $('#ra').css('color','#013776');
+        $('#item2').css('color','#013776');
+      })
+      $('#r3').mouseleave(function () {
+        $('#ra').css('color','#707070');
+        $('#item2').css('color','#707070');
+      })
+      /*members event*/
+      $('#m1').mouseover(function ( ){
+        $('#pro').css('color','#013776');
+        $('#item3').css('color','#013776');
+      })
+      $('#m1').mouseleave(function () {
+        $('#pro').css('color','#707070');
+        $('#item3').css('color','#707070');
+      })
+      $('#m2').mouseover(function ( ){
+        $('#mem').css('color','#013776');
+        $('#item3').css('color','#013776');
+      })
+      $('#m2').mouseleave(function () {
+        $('#mem').css('color','#707070');
+        $('#item3').css('color','#707070');
+      })
+
+      /*publication event*/
+      $('#pub').mouseover(function ( ){
+        $('#publication').css('color','#013776');
+        $('#item4').css('color','#013776');
+      })
+      $('#pub').mouseleave(function () {
+        $('#publication').css('color','#707070');
+        $('#item4').css('color','#707070');
+      })
+      $('#con').mouseover(function ( ){
+        $('#contact').css('color','#013776');
+        $('#item5').css('color','#013776');
+      })
+      $('#con').mouseleave(function () {
+        $('#contact').css('color','#707070');
+        $('#item5').css('color','#707070');
+      })
     })
   </script>
   <head>
@@ -73,41 +147,41 @@ $('#table').mouseover(function () {
                     </div>
                     <div class="flexbox">
                           <div class="titlelist">
-                            <div class="titleRow">
-                           <a id="item1" >INTRODUCTION</a>
+                              <div class="titleRow">
+                                <a id="item1" >INTRODUCTION</a>
+                              </div>
+                              <div  class="titleRow">
+
+                              <a id="item2">RESEARCH</a>
+                            </div>
+                              <div  class="titleRow">
+                              <a id="item3">MEMBERS</a>
                             </div>
                             <div  class="titleRow">
-
-                            <a id="item2">RESEARCH</a>
-                          </div>
+                          <a id="item4">PUBLICATION</a>
+                            </div>
                             <div  class="titleRow">
-                            <a id="item3">MEMBERS</a>
-                          </div>
-                          <div  class="titleRow">
-                         <a id="item4">PUBLICATION</a>
-                          </div>
-                          <div  class="titleRow">
-                           <a id="item5">CONTACT</a>
-                          </div>
+                            <a id="item5">CONTACT</a>
+                            </div>
                           </div>
                           <div id="table">
                             <div class="itemRow">
-                                <div class="itemColumn"><a href="#" class="itemAll">Introduction</a></div>
+                                <div class="itemColumn" id="introduction"><a href="#" class="itemAll" id="intro">Introduction</a></div>
                             </div>
                             <div class="itemRow">
-                                <div class="itemColumn"><a href="#" class="itemAll">Research Introduction</a></div>
-                                <div class="itemColumn"><a href="#" class="itemAll">Research Overview</a></div>
-                                <div class="itemColumn"><a href="#" class="itemAll">Research Areas</a></div>
+                                <div class="itemColumn" id="r1"><a href="#" class="itemAll" id="ri">Research Introduction</a></div>
+                                <div class="itemColumn" id="r2"><a href="#" class="itemAll" id="ro">Research Overview</a></div>
+                                <div class="itemColumn" id="r3"><a href="#" class="itemAll" id="ra">Research Areas</a></div>
                             </div>
                             <div class="itemRow">
-                                <div class="itemColumn"><a href="#" class="itemAll">Professor</a></div>
-                                <div class="itemColumn"><a href="#" class="itemAll">Members</a></div>
+                                <div class="itemColumn" id="m1"><a href="#" class="itemAll" id="pro">Professor</a></div>
+                                <div class="itemColumn" id="m2"><a href="#" class="itemAll" id="mem">Members</a></div>
                             </div>
                             <div class="itemRow">
-                                <div class="itemColumn"><a href="#" class="itemAll">Publication</a></div>
+                                <div class="itemColumn" id="publication"><a href="#" class="itemAll" id="pub">Publication</a></div>
                             </div>
                             <div class="itemRow" >
-                                <div class="itemColumn"><a href="#"class="itemAll" >Contact</a></div>
+                                <div class="itemColumn" id="contact"><a href="#"class="itemAll" id="con">Contact</a></div>
                             </div>
                         
                       </div>
