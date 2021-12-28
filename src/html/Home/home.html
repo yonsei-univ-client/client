@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".mobile-layout").load("/src/html/Home/mobile/default.html"); 
+        $(".pc-layout").load("/src/html/Home/pc/default.html"); 
+      });
+    </script>
+
+    <style>
+      @media screen and (min-width: 1025px) {
+        .mobile-layout {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        .pc-layout {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+   
+    <div class="pc-layout"></div>
+
+    <div class="mobile-layout"></div>
+  </body>
+</html>
