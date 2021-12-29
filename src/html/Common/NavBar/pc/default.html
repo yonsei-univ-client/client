@@ -45,16 +45,16 @@
         $('#item5' ).css('color','#707070');
       });
       /*메뉴 테이블 event*/
-      $('#table').mouseover(function () {
-        $('#table').show();
-      })
       $('.titlelist').mouseover(function ( ){
         $('#table').show();
       })
-      $('#table').mouseleave(function () {
-        $('#table').hide();
+      $('#table').mouseover(function () {
+        $('#table').show();
       })
       $('.titlelist').mouseleave(function ( ){
+        $('#table').hide();
+      })
+      $('#table').mouseleave(function ( ){
         $('#table').hide();
       })
       /*introduction event*/
@@ -110,20 +110,20 @@
       })
 
       /*publication event*/
-      $('#pub').mouseover(function ( ){
-        $('#publication').css('color','#013776');
+      $('#publication').mouseover(function ( ){
+        $('#pub').css('color','#013776');
         $('#item4').css('color','#013776');
       })
-      $('#pub').mouseleave(function () {
-        $('#publication').css('color','#707070');
+      $('#publication').mouseleave(function () {
+        $('#pub').css('color','#707070');
         $('#item4').css('color','#707070');
       })
-      $('#con').mouseover(function ( ){
-        $('#contact').css('color','#013776');
+      $('#contact').mouseover(function ( ){
+        $('#con').css('color','#013776');
         $('#item5').css('color','#013776');
       })
-      $('#con').mouseleave(function () {
-        $('#contact').css('color','#707070');
+      $('#contact').mouseleave(function () {
+        $('#con').css('color','#707070');
         $('#item5').css('color','#707070');
       })
     })
@@ -136,60 +136,56 @@
   </head>
   <body>
     <div class="section">
-            <ul class="list" >
-                <div class="header">
-                    <div class="micro">
-                        <li >
-                            <a href="/src/html/Home/home.html">
-                                <img alt="rogo" src="../../../../../public/images/Common/NavBar/navbarRogo.png"/>
-                            </a>
-                        </li>
-                    </div>
-                    <div class="flexbox">
-                          <div class="titlelist">
-                              <div class="titleRow">
-                                <a id="item1" >INTRODUCTION</a>
-                              </div>
-                              <div  class="titleRow">
+          <div class="header">
+            <div class="micro">
+              <a href="/src/html/Home/home.html">
+                <img alt="rogo" src="../../../../../public/images/Common/NavBar/navbarRogo.png"/>
+              </a>    
+            </div>
+            <div class="flexbox">
+                <div class="titlelist">
+                  <div class="titleRow">
+                    <a id="item1" >INTRODUCTION</a>
+                  </div>
+                  <div  class="titleRow">
 
-                              <a id="item2">RESEARCH</a>
-                            </div>
-                              <div  class="titleRow">
-                              <a id="item3">MEMBERS</a>
-                            </div>
-                            <div  class="titleRow">
-                          <a id="item4">PUBLICATION</a>
-                            </div>
-                            <div  class="titleRow">
-                            <a id="item5">CONTACT</a>
-                            </div>
-                          </div>
-                          <div id="table">
-                            <div class="itemRow">
-                                <div class="itemColumn" id="introduction"><a href="#" class="itemAll" id="intro">Introduction</a></div>
-                            </div>
-                            <div class="itemRow">
-                                <div class="itemColumn" id="r1"><a href="#" class="itemAll" id="ri">Research Introduction</a></div>
-                                <div class="itemColumn" id="r2"><a href="#" class="itemAll" id="ro">Research Overview</a></div>
-                                <div class="itemColumn" id="r3"><a href="#" class="itemAll" id="ra">Research Areas</a></div>
-                            </div>
-                            <div class="itemRow">
-                                <div class="itemColumn" id="m1"><a href="#" class="itemAll" id="pro">Professor</a></div>
-                                <div class="itemColumn" id="m2"><a href="#" class="itemAll" id="mem">Members</a></div>
-                            </div>
-                            <div class="itemRow">
-                                <div class="itemColumn" id="publication"><a href="#" class="itemAll" id="pub">Publication</a></div>
-                            </div>
-                            <div class="itemRow" >
-                                <div class="itemColumn" id="contact"><a href="#"class="itemAll" id="con">Contact</a></div>
-                            </div>
-                        
-                      </div>
-                        
-                    </div>
-                   
+                    <a id="item2">RESEARCH</a>
+                  </div>
+                    <div  class="titleRow">
+                    <a id="item3">MEMBERS</a>
+                  </div>
+                  <div  class="titleRow">
+                    <a id="item4">PUBLICATION</a>
+                  </div>
+                  <div  class="titleRow">
+                    <a id="item5">CONTACT</a>
+                  </div>
                 </div>
-            </ul>
+              <div id="table">
+                    <div class="itemRow">
+                        <div class="itemColumn" id="introduction"><a href="/src/html/Home/home.html" class="itemAll" id="intro">Introduction</a></div>
+                    </div>
+                    <div class="itemRow">
+                        <div class="itemColumn" id="r1"><a href="/src/html/Research/Introduction.html" class="itemAll" id="ri">Research Introduction</a></div>
+                        <div class="itemColumn" id="r2"><a href="/src/html/Research/overview.html" class="itemAll" id="ro">Research Overview</a></div>
+                        <div class="itemColumn" id="r3"><a href="/src/html/Research/area.html" class="itemAll" id="ra">Research Areas</a></div>
+                    </div>
+                    <div class="itemRow">
+                        <div class="itemColumn" id="m1"><a href="/src/html/Member/member.html" class="itemAll" id="pro">Professor</a></div>
+                        <div class="itemColumn" id="m2"><a href="/src/html/Member/member.html" class="itemAll" id="mem">Members</a></div>
+                    </div>
+                    <div class="itemRow">
+                        <div class="itemColumn" id="publication"><a href="/src/html/Publication/publication.html" class="itemAll" id="pub">Publication</a></div>
+                    </div>
+                    <div class="itemRow" >
+                        <div class="itemColumn" id="contact"><a href="/src/html/Contact/contact.html"class="itemAll" id="con">Contact</a></div>
+                    </div>           
+                        
+                </div>
+                        
+            </div>
+                   
+      </div>
 
     </div>
 

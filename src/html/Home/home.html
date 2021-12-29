@@ -8,7 +8,10 @@
         $(".pc-layout").load("/src/html/Home/pc/default.html"); 
       });
     </script>
-
+    <script src="/src/js/Common/NavBar/navbar.js"></script>
+    <header>
+      <script>loadHTML("/src/html/Common/NavBar/navbar.html")</script>
+    </header>
     <style>
       @media screen and (min-width: 1025px) {
         .mobile-layout {
@@ -24,7 +27,7 @@
   </head>
 
   <body>
-   
+    
     <div class="pc-layout"></div>
 
     <div class="mobile-layout"></div>
