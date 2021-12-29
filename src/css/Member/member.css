@@ -154,6 +154,18 @@ body {
     color: #013776;
   }
 
+  .professorImg {
+    width: 288px;
+    height: 368px;
+  }
+
+  .professorInfoContainer {
+    display: flex;
+    width: 100%;
+    margin-left: 104px;
+    flex-direction: column;
+  }
+
   .categoryTitleText {
     font-family: Roboto;
     font-size: 23px;
