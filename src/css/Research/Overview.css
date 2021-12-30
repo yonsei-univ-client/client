@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PC 레이아웃 */
+@media screen and (min-width: 1025px) {
+  #top_container {
+    width: 496px;
+
+    margin-top: 104.5px;
+    margin-bottom: 208px;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+  }
+  #middle_container {
+    width: 52.9%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #bottom_container {
+    height: 265px;
+    object-fit: contain;
+    background-color: #fcfcfc;
+    height: 236px;
+    margin-bottom: 20px;
+  }
+
+  #title_text {
+    object-fit: contain;
+    font-family: Roboto;
+    font-size: 49px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -1.47px;
+    text-align: left;
+    color: #013776;
+    z-index: 1;
+  }
+  #title_underline {
+    width: 279px;
+    height: 33px;
+    object-fit: contain;
+    opacity: 0.4;
+    border-radius: 17px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
+
+    position: absolute;
+    top: 24px;
+    left: 5%;
+
+    margin-left: 8px;
+    z-index: 0;
+  }
+
+  .poster_container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 275px;
+  }
+  .poster_name_container {
+    /* width: 93.7%; */
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 48px;
+  }
+  .poster_number_text {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -0.84px;
+    text-align: left;
+    color: #013776;
+  }
+  .poster_name_text {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #000;
+  }
+  .poster_image_slider_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 48px;
+  }
+  .poster_explanation_container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .poster_explanation_sub_container {
+    width: 265px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .poster_explanation_text {
+    font-family: "Roboto", sans-serif;
+    object-fit: contain;
+    opacity: 0.6;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    /* letter-spacing: -0.63px; */
+    letter-spacing: -1.4px;
+    line-height: 1.67;
+    text-align: left;
+    color: #030303;
+
+    /* margin-bottom: 14px; */
+  }
+
+  .carousel-inner {
+    border-radius: 13px;
+    box-shadow: 3px 3px 15px 0 rgba(0, 0, 0, 0.13);
+    border: solid 1px #d6d6d6;
+  }
+
+  .carousel-control-prev {
+    width: 40px;
+
+    position: absolute;
+    left: -64px;
+  }
+
+  .carousel-control-next {
+    width: 40px;
+
+    position: absolute;
+    right: -64px;
+  }
+}
+
+/* Mobile 레이아웃 */
+@media screen and (max-width: 1024px) {
+  /*  */
+}
