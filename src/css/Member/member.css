@@ -638,7 +638,7 @@ body {
     justify-content: flex-end;
   }
   .alumniNameText {
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 9px;
     font-weight: bold;
     font-stretch: normal;
