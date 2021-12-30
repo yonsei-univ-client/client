@@ -49,6 +49,12 @@
     />
 
     <link href="/src/css/Member/member.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+      $("#members-tab").addClass("active");
+
+      $("#members").addClass("active show");
+    </script>
   </head>
 
   <body>
@@ -62,7 +68,7 @@
     <ul class="nav nav-tabs inner-tab" id="sub-tab">
       <li class="nav-item">
         <a
-          class="nav-link active"
+          class="nav-link"
           id="professor-tab"
           data-bs-toggle="tab"
           data-bs-target="#professor"
@@ -92,7 +98,7 @@
 
     <div class="tab-content">
       <div
-        class="tab-pane fade active show professorRoot"
+        class="tab-pane fade professorRoot"
         id="professor"
         role="tabpanel"
         aria-labelledby="professor-tab"
