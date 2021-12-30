@@ -193,8 +193,6 @@ body {
   }
 
   .cardTitleText {
-    width: 65px;
-    height: 39px;
     object-fit: contain;
     font-family: Roboto;
     font-size: 30px;
@@ -218,8 +216,8 @@ body {
   }
   .cardContainer2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 176px 176px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 176px;
     gap: 48px 5px;
     padding-left: 24px;
     margin-top: 18px;
@@ -311,7 +309,7 @@ body {
     font-style: normal;
     line-height: 1.21;
     letter-spacing: normal;
-    text-align: left;
+    text-align: right;
     color: #000;
   }
 
@@ -497,6 +495,26 @@ body {
     margin-bottom: 11px;
   }
 
+  .contentTextContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+  }
+
+  .contentTextLeft {
+    min-width: 60px;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-right: 8px;
+  }
+
   .contentText {
     font-family: Roboto;
     font-size: 9px;
@@ -507,7 +525,6 @@ body {
     letter-spacing: normal;
     text-align: left;
     color: #000;
-    margin-bottom: 16px;
   }
 
   .contentTextInfoMargin {
@@ -558,7 +575,7 @@ body {
   .cardContainer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 72px 72px 72px 72px 72px 72px;
+    grid-template-rows: 72px 72px 72px 72px;
     gap: 16px 5px;
     margin-top: 18px;
     margin-bottom: 64px;
@@ -566,7 +583,7 @@ body {
   .cardContainer2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 72px 72px 72px 72px;
+    grid-template-rows: 72px;
     gap: 16px 5px;
     margin-top: 18px;
     margin-bottom: 64px;
@@ -662,6 +679,7 @@ body {
     margin-right: 24px;
   }
   .alumniInfoText {
+    min-width: 56px;
     object-fit: contain;
     opacity: 0.6;
     font-family: Roboto;
