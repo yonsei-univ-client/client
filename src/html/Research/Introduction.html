@@ -10,6 +10,7 @@
       $(document).ready(function () {
         $("#pc-layout").load("./pc/Introduction-pc.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
         $("#mobile-layout").load("./mobile/Introduction-mobile.html"); // 원하는 파일 경로를 삽입하면 된다
+        $("#navbar").load("/src/html/Common/NavBar/navbar.html");
       });
     </script>
 
@@ -29,6 +30,8 @@
   </head>
 
   <body>
+    <div id="navbar"></div>
+
     <!-- PC 버전 컴포넌트 (id='pc-layout' 으로 통일), 해당 파일의 경로는 "./pc/{페이지명}-pc.html" -->
     <div id="pc-layout"></div>
 
