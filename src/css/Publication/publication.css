@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-overflow-scrolling: auto;
+}
+
+.pageMargin {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+@media screen and (min-width: 1025px) {
+  .titleSection {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 88.5px;
+    margin-bottom: 168px;
+  }
+
+  .titleText {
+    object-fit: contain;
+    font-family: Roboto;
+    font-size: 49px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: -1.47px;
+    text-align: left;
+    color: #013776;
+    z-index: 1;
+  }
+  .titleBackDrag {
+    position: absolute;
+    top: 24px;
+    margin-left: 16px;
+    width: 279px;
+    height: 33px;
+    object-fit: contain;
+    opacity: 0.4;
+    border-radius: 17px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
+    z-index: 0;
+  }
+
+  .pulicationTextSection {
+    display: flex;
+    flex-direction: row;
+    min-height: fit-content;
+    margin-bottom: 40px;
+  }
+  .pulicationTextSection > .leftContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  .pulicationTextSection > .leftContainer > .publicationAuthorText {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #013776;
+    margin-bottom: 8px;
+  }
+  .pulicationTextSection > .leftContainer > .publicationLinkText {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: -0.78px;
+    text-align: left;
+    color: #000;
+  }
+  .pulicationTextSection > .rightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-end;
+  }
+  .pulicationTextSection > .rightContainer > .addtionalInfoText {
+    object-fit: contain;
+    opacity: 0.6;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+  }
+
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+    bottom: 0pt;
+    left: 0pt;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .footerSection > .topContainer {
+    height: 108px;
+    object-fit: contain;
+    background-color: #fcfcfc;
+  }
+  .footerSection > .bottomContainer {
+    height: 71px;
+    object-fit: contain;
+    border: solid 1px #e2e2e2;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .titleSectionBox {
+    object-fit: contain;
+    box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titleSection {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .titleText {
+    object-fit: contain;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.51px;
+    text-align: left;
+    color: #013776;
+    z-index: 1;
+  }
+  .titleBackDrag {
+    position: absolute;
+    top: 8px;
+    border-radius: 17px;
+    margin-left: -36px;
+    width: 72px;
+    height: 13px;
+    object-fit: contain;
+    opacity: 0.4;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
+  }
+
+  .pulicationTextSection {
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    margin-bottom: 40px;
+  }
+  .pulicationTextSection > .leftContainer {
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+  }
+  .pulicationTextSection > .leftContainer > .publicationAuthorText {
+    font-family: Roboto;
+    font-size: 7px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #013776;
+    margin-bottom: 4px;
+  }
+  .pulicationTextSection > .leftContainer > .publicationLinkText {
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: -0.78px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 8px;
+  }
+  .pulicationTextSection > .rightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .pulicationTextSection > .rightContainer > .addtionalInfoText {
+    object-fit: contain;
+    opacity: 0.6;
+    font-family: Roboto;
+    font-size: 6px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+  }
+
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+    bottom: 0pt;
+    left: 0pt;
+    width: 100%;
+    margin-top: 76px;
+  }
+  .footerSection > .topContainer {
+    height: 100%;
+    object-fit: contain;
+    background-color: #fcfcfc;
+  }
+  .footerSection > .bottomContainer {
+    display: none;
+  }
+}

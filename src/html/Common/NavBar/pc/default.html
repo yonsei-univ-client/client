@@ -6,188 +6,229 @@
   <script>
     $(document).ready(function () {
       /*메뉴바 상단 event*/
-      $('#item1').mouseover(function () {
-        $('#item1' ).css('color','#013776');
+      $("#item1").mouseover(function () {
+        $("#item1").css("color", "#013776");
       });
-      $('#item2').mouseover(function () {
-        $('#item2' ).css('color','#013776');
-
+      $("#item2").mouseover(function () {
+        $("#item2").css("color", "#013776");
       });
-      $('#item3').mouseover(function () {
-        $('#item3' ).css('color','#013776');
-
+      $("#item3").mouseover(function () {
+        $("#item3").css("color", "#013776");
       });
-      $('#item4').mouseover(function () {
-        $('#item4' ).css('color','#013776');
-
+      $("#item4").mouseover(function () {
+        $("#item4").css("color", "#013776");
       });
-      $('#item5').mouseover(function () {
-        $('#item5' ).css('color','#013776');
-
+      $("#item5").mouseover(function () {
+        $("#item5").css("color", "#013776");
       });
-      $('#item1').mouseleave(function () {
-        $('#item1' ).css('color','#707070');
-
+      $("#item1").mouseleave(function () {
+        $("#item1").css("color", "#707070");
       });
-      $('#item2').mouseleave(function () {
-        $('#item2' ).css('color','#707070');
-
+      $("#item2").mouseleave(function () {
+        $("#item2").css("color", "#707070");
       });
-      $('#item3').mouseleave(function () {
-        $('#item3' ).css('color','#707070');
-
+      $("#item3").mouseleave(function () {
+        $("#item3").css("color", "#707070");
       });
-      $('#item4').mouseleave(function () {
-        $('#item4' ).css('color','#707070');
-
+      $("#item4").mouseleave(function () {
+        $("#item4").css("color", "#707070");
       });
-      $('#item5').mouseleave(function () {
-        $('#item5' ).css('color','#707070');
+      $("#item5").mouseleave(function () {
+        $("#item5").css("color", "#707070");
       });
       /*메뉴 테이블 event*/
-      $('.titlelist').mouseover(function ( ){
-        $('#table').show();
-      })
-      $('#table').mouseover(function () {
-        $('#table').show();
-      })
-      $('.titlelist').mouseleave(function ( ){
-        $('#table').hide();
-      })
-      $('#table').mouseleave(function ( ){
-        $('#table').hide();
-      })
+      $(".titlelist").mouseover(function () {
+        $("#table").show();
+      });
+      $("#table").mouseover(function () {
+        $("#table").show();
+      });
+      $(".titlelist").mouseleave(function () {
+        $("#table").hide();
+      });
+      $("#table").mouseleave(function () {
+        $("#table").hide();
+      });
       /*introduction event*/
-      $('#introduction').mouseover(function ( ){
-        $('#intro').css('color','#013776');
-        $('#item1').css('color','#013776');
-      })
-      $('#introduction').mouseleave(function () {
-        $('#intro').css('color','#707070');
-        $('#item1').css('color','#707070');
-      })
+      $("#introduction").mouseover(function () {
+        $("#intro").css("color", "#013776");
+        $("#item1").css("color", "#013776");
+      });
+      $("#introduction").mouseleave(function () {
+        $("#intro").css("color", "#707070");
+        $("#item1").css("color", "#707070");
+      });
       /*research event*/
-      $('#r1').mouseover(function ( ){
-        $('#ri').css('color','#013776');
-        $('#item2').css('color','#013776');
-      })
-      $('#r1').mouseleave(function () {
-        $('#ri').css('color','#707070');
-        $('#item2').css('color','#707070');
-      })
-      $('#r2').mouseover(function ( ){
-        $('#ro').css('color','#013776');
-        $('#item2').css('color','#013776');
-      })
-      $('#r2').mouseleave(function () {
-        $('#ro').css('color','#707070');
-        $('#item2').css('color','#707070');
-      })
-      $('#r3').mouseover(function ( ){
-        $('#ra').css('color','#013776');
-        $('#item2').css('color','#013776');
-      })
-      $('#r3').mouseleave(function () {
-        $('#ra').css('color','#707070');
-        $('#item2').css('color','#707070');
-      })
+      $("#r1").mouseover(function () {
+        $("#ri").css("color", "#013776");
+        $("#item2").css("color", "#013776");
+      });
+      $("#r1").mouseleave(function () {
+        $("#ri").css("color", "#707070");
+        $("#item2").css("color", "#707070");
+      });
+      $("#r2").mouseover(function () {
+        $("#ro").css("color", "#013776");
+        $("#item2").css("color", "#013776");
+      });
+      $("#r2").mouseleave(function () {
+        $("#ro").css("color", "#707070");
+        $("#item2").css("color", "#707070");
+      });
+      $("#r3").mouseover(function () {
+        $("#ra").css("color", "#013776");
+        $("#item2").css("color", "#013776");
+      });
+      $("#r3").mouseleave(function () {
+        $("#ra").css("color", "#707070");
+        $("#item2").css("color", "#707070");
+      });
       /*members event*/
-      $('#m1').mouseover(function ( ){
-        $('#pro').css('color','#013776');
-        $('#item3').css('color','#013776');
-      })
-      $('#m1').mouseleave(function () {
-        $('#pro').css('color','#707070');
-        $('#item3').css('color','#707070');
-      })
-      $('#m2').mouseover(function ( ){
-        $('#mem').css('color','#013776');
-        $('#item3').css('color','#013776');
-      })
-      $('#m2').mouseleave(function () {
-        $('#mem').css('color','#707070');
-        $('#item3').css('color','#707070');
-      })
+      $("#m1").mouseover(function () {
+        $("#pro").css("color", "#013776");
+        $("#item3").css("color", "#013776");
+      });
+      $("#m1").mouseleave(function () {
+        $("#pro").css("color", "#707070");
+        $("#item3").css("color", "#707070");
+      });
+      $("#m2").mouseover(function () {
+        $("#mem").css("color", "#013776");
+        $("#item3").css("color", "#013776");
+      });
+      $("#m2").mouseleave(function () {
+        $("#mem").css("color", "#707070");
+        $("#item3").css("color", "#707070");
+      });
 
       /*publication event*/
-      $('#publication').mouseover(function ( ){
-        $('#pub').css('color','#013776');
-        $('#item4').css('color','#013776');
-      })
-      $('#publication').mouseleave(function () {
-        $('#pub').css('color','#707070');
-        $('#item4').css('color','#707070');
-      })
-      $('#contact').mouseover(function ( ){
-        $('#con').css('color','#013776');
-        $('#item5').css('color','#013776');
-      })
-      $('#contact').mouseleave(function () {
-        $('#con').css('color','#707070');
-        $('#item5').css('color','#707070');
-      })
-    })
+      $("#publication").mouseover(function () {
+        $("#pub").css("color", "#013776");
+        $("#item4").css("color", "#013776");
+      });
+      $("#publication").mouseleave(function () {
+        $("#pub").css("color", "#707070");
+        $("#item4").css("color", "#707070");
+      });
+      $("#contact").mouseover(function () {
+        $("#con").css("color", "#013776");
+        $("#item5").css("color", "#013776");
+      });
+      $("#contact").mouseleave(function () {
+        $("#con").css("color", "#707070");
+        $("#item5").css("color", "#707070");
+      });
+    });
   </script>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" 
-    type="text/css"
-    href="/src/css/Common/NavBar/default.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/css/Common/NavBar/default.css"
+    />
   </head>
   <body>
     <div class="section">
-          <div class="header">
-            <div class="micro-rogo">
-              <a href="/src/html/Home/home.html">
-                <img alt="rogo" src="../../../../../public/images/Common/NavBar/navbarRogo.png"/>
-              </a>    
+      <div class="header">
+        <div class="micro-rogo">
+          <a href="/src/html/Home/home.html">
+            <img
+              alt="rogo"
+              src="../../../../../public/images/Common/NavBar/navbarRogo.png"
+            />
+          </a>
+        </div>
+        <div class="flexbox">
+          <div class="titlelist">
+            <div class="titleRow">
+              <a id="item1">INTRODUCTION</a>
             </div>
-            <div class="flexbox">
-                <div class="titlelist">
-                  <div class="titleRow">
-                    <a id="item1" >INTRODUCTION</a>
-                  </div>
-                  <div  class="titleRow">
-
-                    <a id="item2">RESEARCH</a>
-                  </div>
-                    <div  class="titleRow">
-                    <a id="item3">MEMBERS</a>
-                  </div>
-                  <div  class="titleRow">
-                    <a id="item4">PUBLICATION</a>
-                  </div>
-                  <div  class="titleRow">
-                    <a id="item5">CONTACT</a>
-                  </div>
-                </div>
-              <div id="table">
-                    <div class="itemRow">
-                        <div class="itemColumn" id="introduction"><a href="/src/html/Home/home.html" class="itemAll" id="intro">Introduction</a></div>
-                    </div>
-                    <div class="itemRow">
-                        <div class="itemColumn" id="r1"><a href="/src/html/Research/Introduction.html" class="itemAll" id="ri">Research Introduction</a></div>
-                        <div class="itemColumn" id="r2"><a href="/src/html/Research/overview.html" class="itemAll" id="ro">Research Overview</a></div>
-                        <div class="itemColumn" id="r3"><a href="/src/html/Research/area.html" class="itemAll" id="ra">Research Areas</a></div>
-                    </div>
-                    <div class="itemRow">
-                        <div class="itemColumn" id="m1"><a href="/src/html/Member/member.html" class="itemAll" id="pro">Professor</a></div>
-                        <div class="itemColumn" id="m2"><a href="/src/html/Member/member.html" class="itemAll" id="mem">Members</a></div>
-                    </div>
-                    <div class="itemRow">
-                        <div class="itemColumn" id="publication"><a href="/src/html/Publication/publication.html" class="itemAll" id="pub">Publication</a></div>
-                    </div>
-                    <div class="itemRow" >
-                        <div class="itemColumn" id="contact"><a href="/src/html/Contact/contact.html"class="itemAll" id="con">Contact</a></div>
-                    </div>           
-                        
-                </div>
-                        
+            <div class="titleRow">
+              <a id="item2">RESEARCH</a>
             </div>
-                   
+            <div class="titleRow">
+              <a id="item3">MEMBERS</a>
+            </div>
+            <div class="titleRow">
+              <a id="item4">PUBLICATION</a>
+            </div>
+            <div class="titleRow">
+              <a id="item5">CONTACT</a>
+            </div>
+          </div>
+          <div id="table">
+            <div class="itemRow">
+              <div class="itemColumn" id="introduction">
+                <a href="/src/html/Home/home.html" class="itemAll" id="intro"
+                  >Introduction</a
+                >
+              </div>
+            </div>
+            <div class="itemRow">
+              <div class="itemColumn" id="r1">
+                <a
+                  href="/src/html/Research/Introduction.html"
+                  class="itemAll"
+                  id="ri"
+                  >Research Introduction</a
+                >
+              </div>
+              <div class="itemColumn" id="r2">
+                <a
+                  href="/src/html/Research/overview.html"
+                  class="itemAll"
+                  id="ro"
+                  >Research Overview</a
+                >
+              </div>
+              <div class="itemColumn" id="r3">
+                <a href="/src/html/Research/area.html" class="itemAll" id="ra"
+                  >Research Areas</a
+                >
+              </div>
+            </div>
+            <div class="itemRow">
+              <div class="itemColumn" id="m1">
+                <a
+                  href="/src/html/Member/member.html?type=professor"
+                  class="itemAll"
+                  id="pro"
+                  >Professor</a
+                >
+              </div>
+              <div class="itemColumn" id="m2">
+                <a
+                  href="/src/html/Member/member.html?type=member"
+                  class="itemAll"
+                  id="mem"
+                  >Members</a
+                >
+              </div>
+            </div>
+            <div class="itemRow">
+              <div class="itemColumn" id="publication">
+                <a
+                  href="/src/html/Publication/publication.html"
+                  class="itemAll"
+                  id="pub"
+                  >Publication</a
+                >
+              </div>
+            </div>
+            <div class="itemRow">
+              <div class="itemColumn" id="contact">
+                <a
+                  href="/src/html/Contact/contact.html"
+                  class="itemAll"
+                  id="con"
+                  >Contact</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
-
-
   </body>
+</html>

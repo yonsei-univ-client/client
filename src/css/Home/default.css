@@ -1,304 +1,298 @@
 /*  */
-body{
-    margin:0;
-    width: 100%;
-    height: 100%;
-    -webkit-overflow-scrolling: auto;
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: auto;
 }
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    //background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  //background-color: tomato;
 }
 .upper {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin-top: 267px;
-    width: 100%;
-    //background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 267px;
+  width: 100%;
+  //background-color: red;
 }
 .middle {
-    //background-color: purple;
-    margin-top: 148px;
-    width: 100%;
+  //background-color: purple;
+  margin-top: 148px;
+  width: 100%;
 }
 .under {
-    display: flex;
-    width: 100%;
-    align-self: center;
-    justify-content: space-around;
-    flex-direction: row;
-    //background-color: green;
-    margin-top: 184px;
-    margin-bottom: 80px;
+  display: flex;
+  width: 100%;
+  align-self: center;
+  justify-content: space-around;
+  flex-direction: row;
+  //background-color: green;
+  margin-top: 184px;
+  margin-bottom: 80px;
 }
 .under_left {
-    display: flex;
-    margin-top: 65px;
-    //background-color: yellow;
+  display: flex;
+  margin-top: 65px;
+  //background-color: yellow;
 }
 .under_right {
-    display:flex;
-    flex-direction: column;
-    //background-color: orange;  
+  display: flex;
+  flex-direction: column;
+  //background-color: orange;
 }
 .rogo-image {
-    z-index: -2;
-    //background-color: yellow;
+  z-index: -2;
+  //background-color: yellow;
 }
 .rogo {
-    width: 680px;
-    height: 388px;
-    position: absolute;
-    top: 126px;
-    left: 22.5%;
-    //border: solid 1px #000;
-    
+  width: 680px;
+  height: 388px;
+  position: absolute;
+  top: 126px;
+  left: 22.5%;
+  //border: solid 1px #000;
 }
 .micro-box {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .micro {
-    width: 565px;
-    height: 40px;
-    opacity: 0.48;
-    font-family: Roboto;
-    font-size: 25px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.3;
-    letter-spacing: -1.5px;
-    text-align: center;
-    color: #072f63;
-  
+  width: 565px;
+  height: 40px;
+  opacity: 0.48;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: #072f63;
 }
 .excellency {
-    //width: 880px;
-    //height: 72px;
-    //margin: 13px 73px 148px 144px;
-    font-family: Roboto;
-    font-size: 65px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.32;
-    letter-spacing: normal;
-    text-align: left;
-    color: #072f63;
+  //width: 880px;
+  //height: 72px;
+  //margin: 13px 73px 148px 144px;
+  font-family: Roboto;
+  font-size: 65px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #072f63;
 }
 .button {
-    width: 279px;
-    height: 56px;
-    object-fit: contain;
-    background-color: #fff;
-    border: solid 1px #013776;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: -0.54px;
-    color: #013776;
+  width: 279px;
+  height: 56px;
+  object-fit: contain;
+  background-color: #fff;
+  border: solid 1px #013776;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.54px;
+  color: #013776;
 }
 .text {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: -0.54px;
-    color: #013776;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.54px;
+  color: #013776;
 }
 .solid {
-    width: 388px;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.83;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000;
+  width: 388px;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
 }
 .notice {
-    width: 96px;
-    font-family: Roboto;
-    font-size: 33px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #013776;
+  width: 96px;
+  font-family: Roboto;
+  font-size: 33px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #013776;
 }
 .tribology {
-    width: 540px;
-    margin-top: 25px;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style:normal;
-    line-height: 1.94;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000;
-    
+  width: 540px;
+  margin-top: 25px;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
 }
 /*mobile*/
 #mobile-main {
-    display: flex;
-    justify-content: center;
-    margin-left: 24px;
-    margin-right: 24px;
-    //background-color:yellow;
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  //background-color:yellow;
 }
 #mobile-upper {
-    text-align: center;
-    margin-top: 90px;
-    width:340px;
-    //background-color: red;
+  text-align: center;
+  margin-top: 90px;
+  width: 340px;
+  //background-color: red;
 }
 #mobile-middle {
-    //background-color: purple;
-    margin-top: 136px;
+  //background-color: purple;
+  margin-top: 136px;
 }
 #mobile-under {
-    text-align: left;
-    //background-color: green;
-    margin-top: 103px;
+  text-align: left;
+  //background-color: green;
+  margin-top: 103px;
 }
 .mobile-underleft {
-    width: 100%;
-    justify-content: flex-start;
+  width: 100%;
+  justify-content: flex-start;
 }
-.mobile-image{
-    position: absolute;
-    //background-color: thistle;
-    z-index:0;
+.mobile-image {
+  position: absolute;
+  //background-color: thistle;
+  z-index: 0;
 }
 .mobile-rogo {
-    
-    width: 214px;
-    height: 123px;
-    
-    background-color: #fff;
+  width: 214px;
+  height: 123px;
 
+  background-color: #fff;
 }
 .mobile-micro {
-    width: 62px;
-    //height: 10px;
-    object-fit: contain;
-    opacity: 0.32;
-    font-family: Roboto;
-    font-size: 8px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: -0.4px;
-    text-align: left;
-    color: #013776;
-  
+  width: 62px;
+  //height: 10px;
+  object-fit: contain;
+  opacity: 0.32;
+  font-family: Roboto;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #013776;
 }
 .mobile-excel-section {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 .mobile-excellency {
-    z-index: 5;
-    //width: 274px;
-    //height: 85px;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 34px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: -1.02px;
-    text-align: center;
-    color: #013776;
+  z-index: 5;
+  //width: 274px;
+  //height: 85px;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: -1.02px;
+  text-align: center;
+  color: #013776;
 }
-.solid-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 36px;
+.solid-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px;
 }
 .mobile-solid {
-    //width: 218px;
-    //height: 22px;
-    object-fit: contain;
-    opacity: 0.5;
-    font-family: Roboto;
-    font-size: 10px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
+  //width: 218px;
+  //height: 22px;
+  object-fit: contain;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
 }
 .mobile-button {
-    //width: px;
-    width: 169px;
-    height: 32px;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 10px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: -0.54px;
-    text-align: center;
-    color: #013776;
-    background-color: #fff;
-    border: 1px solid #013776;
-    opacity: 0.8;
+  //width: px;
+  width: 169px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.54px;
+  text-align: center;
+  color: #013776;
+  background-color: #fff;
+  border: 1px solid #013776;
+  opacity: 0.8;
 }
 
 .mobile-notice {
-    width: 53px;
-    height: 24px;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #013776;
+  width: 53px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #013776;
 }
 .mobile-tribology {
-    width: 304px;
-    //height: 97px;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 10px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.7;
-    letter-spacing: normal;
-    text-align: left;
-    color: #363636;
-    margin-top: 17px;
+  width: 304px;
+  //height: 97px;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-align: left;
+  color: #363636;
+  margin-top: 17px;
 }
