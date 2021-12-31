@@ -1,1 +1,319 @@
 /*  */
+body {
+    width: 100%;
+}
+.section {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 79.5px;
+    border-bottom: solid 3px #3c6695;
+    z-index: 100;
+    top: 0;
+    background-color: #fff;
+}
+.list {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    font: 14px;
+    flex-direction: row;
+}
+.header {
+    display: flex;
+    width: 100%;
+    //align-items: center;
+    //margin-left: 7.5%;
+    // margin-right: 9.3%;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    //background-color: yellowgreen;
+}
+.micro-rogo {
+    z-index: 999;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    //background-color: #013776;
+    //margin:0;
+    
+}
+.rogo {
+    width: 232px;
+    height: 48px;
+    align-self: center;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    //background-color:tomato;
+    align-self:flex-end;
+}
+.titlelist {
+    display: flex;
+    flex-direction: row;
+    z-index: 30;
+}
+.titleRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 168px;
+    height: 60px;
+    //background-color: yellow;
+    //width:19.44%;
+    
+}
+#item1, #item2, #item3, #item4, #item5 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+    //background-color: aquamarine;
+}
+#table {
+    position: absolute;
+    background-color: #fcfcfc;
+    //width: 44.40%;
+    //width: 100%;
+    height: 152px;
+    top: 80.5px;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border:rgba(0, 0, 0, 0.16);
+    z-index: 10;
+}
+.itemRow {
+    display: flex;
+    flex-direction: column;
+    //background-color:bisque;
+    //width:19.44%;
+    width: 168px;
+}
+.itemColumn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    //background-color: aquamarine;
+    object-fit: contain;
+    //width: 168px;
+    width: 100%;
+    height: 50px;
+}
+.itemAll {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #606060;
+    
+    text-decoration: none;
+}
+/*mobile*/
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    //background-color: yellowgreen;
+}
+.mobile-section {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    border-bottom: solid 3px #3c6695;
+    z-index: 10;
+    top:0px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+.mobile-header {
+    display: flex;
+    flex:5;
+    flex-direction: row;
+    //width: 93.6%;
+    //height: 100%;
+    margin-left: 6.4%;
+    margin-right: 6.4%;
+}
+.header-left {
+    flex:1;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    background-color: #fff;
+}
+.header-right {
+    flex:1;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+}
+.mobile-toolbar {
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+.mobile-title{
+    flex: 1;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 148px;
+    height: 31px;
+    background-color: #fff;
+}
+.image{
+    width: 148px;
+    height: 31px;
+}
+.page-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //width: 100%;
+    //background-color: yellowgreen;
+}
+.page-section {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    border-bottom: solid 3px #3c6695;
+    z-index: 10;
+    top:0px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7.1%;
+    margin-right: 7.1%;
+    //background-color: #3c6695;
+}
+.page-title {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.xbutton {
+    align-self: center;
+    background-color: #fff;
+    width: 31px;
+    height: 31px;
+}
+.ximage {
+    width: 31px;
+    height: 31px;
+}
+.page-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 66px;
+    width: 88.2%;
+    align-content: center;
+    align-items: center;
+    //background-color: #013776;
+}
+.first, .fourth, .fifth {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 16px;
+    object-fit: contain;
+    border-radius: 5px;
+    border: solid 1px #013776;
+    background-color: #eef2f9;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+}
+.second, .third {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    object-fit: contain;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: solid 1px #013776;
+    background-color: #eef2f9;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+}   
+.menucol {
+    margin-left: 24px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+.threebox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    border: solid 1px #dbdde0;
+}
+
+
+.twobox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 88px;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    border: solid 1px #dbdde0;
+}
+.boxcol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:24px;
+}
+.col {
+    opacity: 0.8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    text-decoration: none;
+}
