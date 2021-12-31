@@ -339,7 +339,7 @@ main {
   }
   #title_text {
     object-fit: contain;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-weight: 500;
     font-stretch: normal;
