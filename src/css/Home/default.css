@@ -12,7 +12,6 @@ body {
   align-items: center;
   text-align: center;
   background-image: url('/public/images/Home/background.png');
-  //background-color: tomato;
 }
 .upper {
   display: flex;
@@ -20,10 +19,8 @@ body {
   align-content: center;
   margin-top: 267px;
   width: 100%;
-  //background-color: red;
 }
 .middle {
-  //background-color: purple;
   margin-top: 148px;
   width: 100%;
 }
@@ -33,23 +30,19 @@ body {
   align-self: center;
   justify-content: space-around;
   flex-direction: row;
-  //background-color: green;
   margin-top: 184px;
   margin-bottom: 80px;
 }
 .under_left {
   display: flex;
   margin-top: 65px;
-  //background-color: yellow;
 }
 .under_right {
   display: flex;
   flex-direction: column;
-  //background-color: orange;
 }
 .rogo-image {
   z-index: -2;
-  //background-color: yellow;
 }
 .rogo {
   width: 680px;
@@ -57,7 +50,6 @@ body {
   position: absolute;
   top: 126px;
   left: 22.5%;
-  //border: solid 1px #000;
 }
 .micro-box {
   display: flex;
@@ -78,9 +70,6 @@ body {
   color: #072f63;
 }
 .excellency {
-  //width: 880px;
-  //height: 72px;
-  //margin: 13px 73px 148px 144px;
   font-family: Roboto;
   font-size: 65px;
   font-weight: bold;
@@ -161,21 +150,17 @@ body {
   justify-content: center;
   margin-left: 24px;
   margin-right: 24px;
-  //background-color:yellow;
 }
 #mobile-upper {
   text-align: center;
   margin-top: 90px;
   width: 340px;
-  //background-color: red;
 }
 #mobile-middle {
-  //background-color: purple;
   margin-top: 136px;
 }
 #mobile-under {
   text-align: left;
-  //background-color: green;
   margin-top: 103px;
 }
 .mobile-underleft {
@@ -184,7 +169,6 @@ body {
 }
 .mobile-image {
   position: absolute;
-  //background-color: thistle;
   z-index: 0;
 }
 .mobile-rogo {
@@ -195,7 +179,6 @@ body {
 }
 .mobile-micro {
   width: 62px;
-  //height: 10px;
   object-fit: contain;
   opacity: 0.32;
   font-family: Roboto;
@@ -216,8 +199,6 @@ body {
 }
 .mobile-excellency {
   z-index: 5;
-  //width: 274px;
-  //height: 85px;
   object-fit: contain;
   font-family: Roboto;
   font-size: 34px;
@@ -236,8 +217,6 @@ body {
   margin-top: 36px;
 }
 .mobile-solid {
-  //width: 218px;
-  //height: 22px;
   object-fit: contain;
   opacity: 0.5;
   font-family: Roboto;
@@ -251,7 +230,6 @@ body {
   color: #000;
 }
 .mobile-button {
-  //width: px;
   width: 169px;
   height: 32px;
   object-fit: contain;
@@ -284,7 +262,6 @@ body {
 }
 .mobile-tribology {
   width: 304px;
-  //height: 97px;
   object-fit: contain;
   font-family: Roboto;
   font-size: 10px;
