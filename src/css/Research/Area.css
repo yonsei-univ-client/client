@@ -180,7 +180,8 @@ main {
     margin-bottom: 38px;
   }
   .project {
-    width: 792px;
+    max-width: 792px;
+    width: 41.3%;
     height: 383px;
     object-fit: contain;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
@@ -193,20 +194,35 @@ main {
 
     margin: 0px 30.5px 0px 30.5px;
   }
+  .project-dummy {
+    max-width: 792px;
+    width: 41.3%;
+    height: 383px;
+    object-fit: contain;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 30.5px 0px 30.5px;
+  }
 
   .institution_img_container {
-    width: 792px;
+    max-width: 792px;
+    width: 100%;
+
     height: 168px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .institution_img {
-    width: 788px;
+    width: 100%;
     height: 100%;
   }
   .project_explanation {
-    width: 792px;
+    width: 100%;
     height: 215px;
     padding: 0px 24px 0px 24px;
     object-fit: contain;
