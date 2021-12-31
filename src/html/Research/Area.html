@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#pc-layout").load("./pc/Area-pc.html");
+        $("#mobile-layout").load("./mobile/Area-mobile.html");
+        $("#navbar").load("/src/html/Common/NavBar/navbar.html");
+      });
+    </script>
+
+    <style>
+      @media screen and (min-width: 1025px) {
+        #mobile-layout {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        #pc-layout {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+    <div id="pc-layout"></div>
+    <div id="mobile-layout"></div>
+  </body>
+</html>
