@@ -15,7 +15,6 @@ body {
 .list {
   display: flex;
   width: 100%;
-
   text-align: center;
   align-content: center;
   font: 14px;
@@ -32,12 +31,13 @@ body {
   list-style: none;
   //background-color: yellowgreen;
 }
-.micro {
+.micro-rogo {
   z-index: 999;
   width: 232px;
   display: flex;
   flex-direction: column;
   align-self: center;
+  //background-color: #013776;
   //margin:0;
 }
 .rogo {
@@ -142,10 +142,10 @@ body {
   height: 56px;
   border-bottom: solid 3px #3c6695;
   z-index: 10;
-  top: 44px;
+  top: 0px;
   flex-direction: column;
   justify-content: center;
-  //background-color: yellow;
+  background-color: #fff;
 }
 .mobile-header {
   display: flex;
@@ -179,12 +179,25 @@ body {
   height: 31px;
 }
 
+.page-section {
+  display: flex;
+  position: fixed;
+  width: 390px;
+  height: 56px;
+  border-bottom: solid 3px #3c6695;
+  z-index: 10;
+  top: 0px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
 .page-header {
   margin-left: 28px;
-  margin-right: 28px;
+  margin-right: 27px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  //background-color: #3c6695;
 }
 .page-title {
   display: flex;
@@ -194,22 +207,60 @@ body {
 .xbutton {
   align-self: center;
   background-color: #fff;
-  width: 32px;
+  width: 31px;
   height: 31px;
   border: 0;
 }
 .ximage {
-  width: 32px;
+  width: 31px;
   height: 31px;
 }
-.mobile-menu {
-  display: flex;
-  width: 390px;
-  margin-top: 120px;
-  flex-direction: column;
-  align-items: center;
+@media screen and (min-width: 377px) {
+  .page-section {
+    display: flex;
+    position: fixed;
+    width: 375px;
+    height: 56px;
+    border-bottom: solid 3px #3c6695;
+    z-index: 10;
+    top: 0px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .mobile-menu {
+    display: flex;
+    position: fixed;
+    width: 390px;
+    top: 76px;
+    flex-direction: column;
+    align-items: center;
+    //background-color:teal;
+  }
 }
-
+@media screen and (max-width: 376px) {
+  .page-section {
+    display: flex;
+    position: fixed;
+    width: 375px;
+    height: 56px;
+    border-bottom: solid 3px #3c6695;
+    z-index: 10;
+    top: 0px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .mobile-menu {
+    display: flex;
+    position: fixed;
+    width: 375px;
+    top: 76px;
+    flex-direction: column;
+    align-items: center;
+    //background-color:teal;
+  }
+}
 .first,
 .fourth,
 .fifth {
@@ -238,12 +289,6 @@ body {
   text-align: left;
   flex-direction: column;
   justify-content: center;
-}
-#introduction,
-#research,
-#members,
-#publication,
-#contact {
 }
 .menucol {
   margin-left: 24px;
