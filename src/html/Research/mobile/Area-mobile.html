@@ -39,16 +39,16 @@
       </div>
 
       <!-- 페이지 내부 sub tab 전환 navigation bar -->
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button
             class="nav-link active"
-            id="home-tab-mobile"
+            id="ongoing-tab"
             data-bs-toggle="tab"
-            data-bs-target="#home-mobile"
+            data-bs-target="#ongoing"
             type="button"
             role="tab"
-            aria-controls="home-mobile"
+            aria-controls="ongoing"
             aria-selected="true"
           >
             On-going Projects
@@ -57,25 +57,25 @@
         <li class="nav-item" role="presentation">
           <button
             class="nav-link"
-            id="profile-tab-mobile"
+            id="completed-tab"
             data-bs-toggle="tab"
-            data-bs-target="#profile-mobile"
+            data-bs-target="#completed"
             type="button"
             role="tab"
-            aria-controls="profile-mobile"
+            aria-controls="completed"
             aria-selected="false"
           >
             Completed Projects
           </button>
         </li>
-      </ul>
+      </ul> -->
 
-      <div class="tab-content" id="myTabContent">
+      <!-- <div class="tab-content" id="myTabContent">
         <div
           class="tab-pane fade show active"
-          id="home-mobile"
+          id="ongoing"
           role="tabpanel"
-          aria-labelledby="home-tab-mobile"
+          aria-labelledby="ongoing-tab"
           style="
             width: 100%;
             display: flex;
@@ -83,6 +83,65 @@
             justify-content: center;
             align-items: center;
           "
+        >
+          a
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="completed"
+          role="tabpanel"
+          aria-labelledby="completed-tab"
+          style="
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          b
+        </div>
+      </div> -->
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="ongoing-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#ongoing"
+            type="button"
+            role="tab"
+            aria-controls="ongoing"
+            aria-selected="true"
+            style="text-transform: none"
+          >
+            On-going Projects
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="completed-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#completed"
+            type="button"
+            role="tab"
+            aria-controls="completed"
+            aria-selected="false"
+            style="text-transform: none"
+          >
+            Completed Projects
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="ongoing"
+          role="tabpanel"
+          aria-labelledby="ongoing-tab"
         >
           <!-- on-going project #1 -->
           <div class="project">
@@ -144,20 +203,13 @@
             </div>
           </div>
         </div>
-
         <div
           class="tab-pane fade"
-          id="profile-mobile"
+          id="completed"
           role="tabpanel"
-          aria-labelledby="profile-tab-mobile"
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          "
+          aria-labelledby="completed-tab"
         >
+          <!-- <div style="width: 100px; height: 200px; background-color: red"></div> -->
           <!-- completed project #35 -->
           <div class="project">
             <div class="institution_img_container">
@@ -823,13 +875,6 @@
               <span class="project_detail_text"> - 연세대학교 산학협력단 </span>
               <span class="project_detail_text"> - 2003. 07 - 2004.06 </span>
             </div>
-          </div>
-
-          <!-- completed project #0 dummy -->
-          <div
-            style="width: 792px; height: 383px; margin: 0px 30.5px 0px 30.5px"
-          >
-            <div class="institution_img_container"></div>
           </div>
         </div>
       </div>
