@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
 /*  */
 body {
   margin: 0;
@@ -12,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('/public/images/Home/background.png');
+  background-image: url("/public/images/Home/background.png");
 }
 .upper {
   display: flex;
@@ -44,7 +46,6 @@ body {
 }
 .rogo-image {
   z-index: -2;
-  
 }
 .rogo {
   width: 680px;
@@ -63,7 +64,7 @@ body {
     left: 23%;
   }
 }
-@media screen and (max-width: 1441px){
+@media screen and (max-width: 1441px) {
   .rogo {
     left: 15%;
   }
