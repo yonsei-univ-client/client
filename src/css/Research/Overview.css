@@ -12,7 +12,6 @@ main {
   justify-content: center;
   align-items: center;
 }
-
 /* PC 레이아웃 */
 @media screen and (min-width: 1025px) {
   #top_container {

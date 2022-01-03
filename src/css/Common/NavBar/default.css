@@ -111,9 +111,8 @@ body {
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  color: #606060;
-
   text-decoration: none;
+  color: #606060;
 }
 /*mobile*/
 .flex-box {
