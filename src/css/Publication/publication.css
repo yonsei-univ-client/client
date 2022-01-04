@@ -68,7 +68,6 @@ body {
     letter-spacing: normal;
     text-align: left;
     color: #013776;
-    margin-bottom: 8px;
   }
   .pulicationTextSection > .leftContainer > .publicationLinkText {
     font-family: Roboto;
@@ -80,6 +79,7 @@ body {
     letter-spacing: -0.78px;
     text-align: left;
     color: #000;
+    margin-bottom: 8px;
   }
   .pulicationTextSection > .rightContainer {
     display: flex;
@@ -184,7 +184,7 @@ body {
     letter-spacing: normal;
     text-align: left;
     color: #013776;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
   .pulicationTextSection > .leftContainer > .publicationLinkText {
     font-family: Roboto;
@@ -196,7 +196,7 @@ body {
     letter-spacing: -0.78px;
     text-align: left;
     color: #000;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
   .pulicationTextSection > .rightContainer {
     display: flex;
