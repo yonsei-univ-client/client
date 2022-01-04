@@ -35,15 +35,16 @@ a:hover {
   list-style: none;
   border-bottom: solid 3px #3c6695;
 }
-.micro-rogo {
+.micro-logo {
   z-index: 999;
-  width: 232px;
+  width: 160px;
+  height: 48px;
   display: flex;
   flex-direction: column;
   align-self: center;
 }
-.rogo {
-  width: 232px;
+.logo {
+  width: 160px;
   height: 48px;
   align-self: center;
 }
@@ -174,8 +175,8 @@ a:hover {
   background-color: #fff;
 }
 .image {
-  width: 148px;
-  height: 31px;
+  width: 110.2px;
+  height: 32px;
 }
 .page-box {
   display: flex;

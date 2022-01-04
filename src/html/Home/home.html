@@ -2,20 +2,16 @@
 <html>
   <head>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript">
       $(document).ready(function () {
         $(".mobile-layout").load("/src/html/Home/mobile/default.html");
         $(".pc-layout").load("/src/html/Home/pc/default.html");
+        $(".navbar").load("/src/html/Common/NavBar/navbar.html");
       });
     </script>
-    <script src="/src/js/Common/NavBar/navbar.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
 
-    <header>
-      <script>
-        loadHTML("/src/html/Common/NavBar/navbar.html");
-      </script>
-    </header>
     <style>
       @media screen and (min-width: 1025px) {
         .mobile-layout {
@@ -31,6 +27,7 @@
   </head>
 
   <body>
+    <div class="navbar"></div>
     <div class="pc-layout"></div>
 
     <div class="mobile-layout"></div>
