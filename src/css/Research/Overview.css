@@ -16,23 +16,18 @@ main {
 @media screen and (min-width: 1025px) {
   #top_container {
     width: 496px;
-
     margin-top: 184px;
     margin-bottom: 208px;
-
     display: flex;
     justify-content: center;
-
     position: relative;
   }
   #middle_container {
     width: 52.9%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   #bottom_container {
     height: 265px;
     object-fit: contain;
@@ -60,31 +55,25 @@ main {
     opacity: 0.4;
     border-radius: 17px;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
-
     position: absolute;
     top: 24px;
     left: 5%;
-
     margin-left: 8px;
     z-index: 0;
   }
 
   .poster_container {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-bottom: 275px;
   }
   .poster_name_container {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     margin-bottom: 48px;
   }
   .poster_number_text {
@@ -112,19 +101,16 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 48px;
   }
   .poster_explanation_container {
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
   .poster_explanation_sub_container {
     width: 265px;
-
     display: flex;
     flex-direction: column;
   }
@@ -141,7 +127,6 @@ main {
     text-align: left;
     color: #030303;
   }
-
   .line_height_with_margin_bottom {
     line-height: 1.2;
     margin-bottom: 10px;
@@ -158,14 +143,12 @@ main {
 
   .carousel-control-prev {
     width: 40px;
-
     position: absolute;
     left: -64px;
   }
 
   .carousel-control-next {
     width: 40px;
-
     position: absolute;
     right: -64px;
   }
@@ -175,21 +158,17 @@ main {
   #top_container {
     width: 100%;
     height: 100px;
-
     display: flex;
     justify-content: center;
-
     object-fit: contain;
     /* opacity: 0.4; */
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
     background-color: #fff;
-
     margin-top: 56px;
     margin-bottom: 32px;
   }
   #middle_container {
     width: 81.8%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,12 +182,9 @@ main {
 
   #title_container {
     width: 167px;
-
     margin-top: 37px;
     padding-bottom: 40px;
-
     position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -234,27 +210,21 @@ main {
     opacity: 0.4;
     border-radius: 17px;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #5e90cb);
-
     position: absolute;
     top: 15%;
     left: 6%;
     z-index: 0;
   }
-
   .poster_container {
     width: 100%;
-
     display: flex;
     flex-direction: column;
-
     margin-bottom: 32px;
   }
   .poster_name_container {
     width: 100%;
-
     display: flex;
     flex-direction: column;
-
     margin-bottom: 8px;
   }
   .poster_number_text {
@@ -285,7 +255,6 @@ main {
   .poster_explanation_container {
     display: flex;
     flex-direction: row;
-
     margin-bottom: 16px;
   }
 
@@ -308,17 +277,14 @@ main {
   }
   .poster_explanation_container {
     width: 100%;
-
     display: flex;
     flex-direction: row;
   }
   .poster_explanation_sub_container {
     width: 50%;
-
     display: flex;
     flex-direction: column;
   }
-
   .carousel-inner {
     border-radius: 13px;
     box-shadow: 3px 3px 15px 0 rgba(0, 0, 0, 0.13);
@@ -327,14 +293,12 @@ main {
 
   .carousel-control-prev {
     width: 16px;
-
     position: absolute;
     left: -24px;
   }
 
   .carousel-control-next {
     width: 16px;
-
     position: absolute;
     right: -24px;
   }
