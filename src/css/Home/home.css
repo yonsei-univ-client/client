@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+/*  */
+body {  margin: 0;padding: 0;width: 100%;height: 100%;-webkit-overflow-scrolling: auto;}
+.main {display: flex;flex-direction: column;justify-content: center;align-items: center;text-align: center;background-image: url("/public/images/Home/background.png");}
+.upper {display: flex;flex-direction: column;align-content: center;margin-top: 267px;width: 100%;}
+.middle {margin-top: 148px;width: 100%;height: 56px;}
+.under {display: flex;width: 100%;align-self: center;justify-content: space-around;flex-direction: row;margin-top: 184px;margin-bottom: 80px;}
+.under_left {display: flex;margin-top: 65px;}
+.under_right {display: flex;flex-direction: column;}
+.rogo-image {z-index: -2;}
+.rogo {width: 680px;height: 388px;position: absolute;top: 126px;left: 18%;}
+@media screen and (min-width: 1920px) {.rogo {left: 28%;}}
+@media screen and (min-width: 1661px) {.rogo {left: 23%;}}
+@media screen and (max-width: 1441px) {.rogo {left: 15%;}}
+.micro-box {display: flex;justify-content: center;}
+.micro {width: 565px;height: 40px;opacity: 0.48;font-family: Roboto;font-size: 25px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.3;letter-spacing: -1.5px;text-align: center;color: #072f63;}
+.excellency {font-family: Roboto;font-size: 65px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.32;letter-spacing: normal;text-align: left;color: #072f63;}
+.button {width: 279px;height: 56px;object-fit: contain;background-color: #fff;border: solid 1px #013776;font-family: Roboto;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: -0.54px;color: #013776;}
+.text {font-family: Roboto;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: -0.54px;color: #013776;}
+.solid {width: 388px;object-fit: contain;font-family: Roboto;font-size: 18px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: 1.83;letter-spacing: normal;text-align: left;color: #000;}
+.notice {width: 96px;font-family: Roboto;font-size: 33px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;text-align: left;color: #013776;}
+.tribology {width: 540px;margin-top: 25px;object-fit: contain;font-family: Roboto;font-size: 18px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.94;letter-spacing: normal;text-align: left;color: #000;}
