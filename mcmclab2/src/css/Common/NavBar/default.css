@@ -11,8 +11,7 @@ a:hover {text-decoration: none !important;}
 .titlelist {display: flex;flex-direction: row;z-index: 30;}
 .titleRow {display: flex;flex-direction: column;justify-content: center;width: 168px;height: 60px;}
 #item1,#item2,#item3,#item4,#item5 {font-family: Roboto;font-size: 20px;font-weight: normal;font-stretch: normal;font-style: normal;text-decoration: none;letter-spacing: normal;text-align: center;color: #707070;}
-_:-webkit-input-placeholder,#table {position: fixed;background-color: #fcfcfc;height: 152px;top: 78px;display: flex;flex-direction: row;object-fit: contain;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);border: rgba(0, 0, 0, 0.16);}
-_:-ms-input-placeholder,#table {position: fixed;background-color: #fcfcfc;height: 152px;top: 77px;display: flex;flex-direction: row;object-fit: contain;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);border: rgba(0, 0, 0, 0.16);}
+#table {position: fixed;background-color: #fcfcfc;height: 152px;top: 78px;display: flex;flex-direction: row;object-fit: contain;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);border: rgba(0, 0, 0, 0.16);}
 .itemRow {display: flex;flex-direction: column;width: 168px;}
 .itemColumn {align-items: center;display: flex;flex-direction: column;list-style: none;justify-content: center;object-fit: contain;width: 100%;height: 50px;}
 .itemAll {font-family: Roboto;font-size: 15px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;text-decoration: none;color: #606060;}
